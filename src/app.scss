@@ -1,0 +1,78 @@
+.tipHeader {
+	font-size: 40px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.amountDiv {
+		font-size: 20px;
+		margin: 20px;
+		input {
+			border-radius: 3px;
+			outline: none;
+			border: 1px solid #ccc;
+			margin-left: 32px;
+			height: 18px;
+			width: 300px;
+			padding: 8px;
+			font-weight: 550;
+		}
+	}
+
+	.percentDiv {
+		font-size: 20px;
+		margin: 20px;
+		input {
+			border-radius: 3px;
+			outline: none;
+			border: 1px solid #ccc;
+			height: 18px;
+			width: 300px;
+			padding: 8px;
+			font-weight: 550;
+		}
+	}
+
+	.handleBtn {
+		background-color: rgb(13, 110, 253);
+		border: none;
+		border-radius: 3px;
+		height: 35px;
+		width: 80px;
+		color: #fff;
+		margin-right: 108px;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+
+	.historyList {
+		margin-top: 50px;
+		font-size: 20px;
+		margin-right: 360px;
+		line-height: 20px;
+		margin-left: 360px;
+
+		header {
+			font-size: 30px;
+			margin-bottom: 20px;
+			margin-left: 30px;
+		}
+
+		.showInfoItem {
+			position: relative;
+			span {
+				font-size: 20px;
+				background-color: rgb(13, 110, 253);
+				color: white;
+				border: 2px solid #000;
+				position: absolute;
+				right: 30px;
+				display: inline-block;
+			}
+		}
+	}
+}
