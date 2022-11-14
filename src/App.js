@@ -12,11 +12,19 @@ function App() {
   let tipRef = useRef(tip)
 
   const amountHandle = (e) => {
+    if (isNaN(e.target.value)) {
+      alert('Please input a valid amount')
+      return
+    }
     setAmount(+e.target.value)
     amountRef.current = +e.target.value
   }
 
   const percentHandle = (e) => {
+    if (isNaN(e.target.value)) {
+      alert('Please input a valid percentage')
+      return
+    }
     setPercent(+e.target.value)
     percentRef.current = +e.target.value
   }
